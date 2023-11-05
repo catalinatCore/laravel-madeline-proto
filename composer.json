@@ -17,9 +17,9 @@
     "require": {
         "php": "^7.4|^8.2",
         "danog/madelineproto": "^8",
-        "illuminate/support": "^7.0|^8.0",
-        "illuminate/console": "^7.0|^8.0",
-        "illuminate/database": "^7.0|^8.0"
+        "illuminate/support": "^9.0",  // 更新为 Laravel 9.x 兼容的版本
+        "illuminate/console": "^9.0",  // 同上
+        "illuminate/database": "^9.0"  // 同上
     },
     "autoload": {
         "psr-4": {
